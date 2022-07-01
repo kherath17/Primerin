@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="Location1" value="London"></parameter>
+    <parameter name="Location2" value="Manchester"></parameter>
+    <parameter name="Location3" value="Leeds"></parameter>
+    <test name ="Parameters1">
+        <classes>
+            <class name="testCases"></class>
+        </classes>
+    </test>
+
+</suite>
